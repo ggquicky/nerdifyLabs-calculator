@@ -180,6 +180,10 @@ color: black;
     .main{
         padding: 5% 16px;
     }
+
+    .calculatorBtnGrid{
+        grid-template-columns: 80px 80px 80px 80px;
+    }
     .calculatorFinishProcess{
     
     font-size: 56px;
@@ -209,6 +213,10 @@ color: black;
     
     }
 
+    .calculatorBtnGrid{
+        grid-template-columns: 80px 80px 80px 80px;
+    }
+
     .calculatorBtns{
         
         font-size: 32px;
@@ -228,5 +236,7 @@ color: black;
     
     
     }
-      
+    .calculatorBtnGrid{
+        grid-template-columns: 80px 80px 80px 80px;
+    }  
   }
