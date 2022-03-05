@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <main class="main">
+        <div><button class="themeswitch" type="button">
+            <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.7">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M13 2V3V5V6H11V5V3V2H13ZM2 11H3H5H6V13H5H3H2V11ZM19 11H18V13H19H21H22V11H21H19ZM13 18V19V21V22H11V21V19V18H13ZM17.6568 19.0711L18.364 19.7782L19.7782 18.364L19.0711 17.6569L17.6568 16.2427L16.9497 15.5356L15.5355 16.9498L16.2426 17.6569L17.6568 19.0711ZM7.05023 8.46451L6.34312 7.7574L4.92891 6.34319L4.2218 5.63608L5.63602 4.22187L6.34313 4.92897L7.75734 6.34319L8.46445 7.05029L7.05023 8.46451ZM19.0711 6.34309L19.7782 5.63599L18.364 4.22177L17.6568 4.92888L16.2426 6.34309L15.5355 7.0502L16.9497 8.46441L17.6568 7.75731L19.0711 6.34309ZM8.46445 16.9497L7.75734 17.6568L6.34312 19.071L5.63602 19.7781L4.2218 18.3639L4.92891 17.6568L6.34313 16.2426L7.05023 15.5355L8.46445 16.9497ZM10 12C10 10.8954 10.8954 10 12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12ZM12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8Z"
+                        fill="#4B5EFC" />
+                </g>
+            </svg></div>
+            <div class="circle"></div>
+            <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g opacity="0.7">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.03239 6.23186C6.2001 7.49474 5 9.60797 5 11.9999C5 15.8659 8.13401 18.9999 12 18.9999C14.3918 18.9999 16.5049 17.8 17.7679 15.9678C17.5146 15.9893 17.2585 16.0002 17 16.0002C12.0294 16.0002 8 11.9708 8 7.00019C8 6.7415 8.01094 6.48524 8.03239 6.23186ZM3 11.9999C3 8.04173 5.55459 4.68279 9.10211 3.47693L10.3707 4.74561C10.1306 5.45177 10 6.20969 10 7.00019C10 10.8662 13.134 14.0002 17 14.0002C17.7904 14.0002 18.5482 13.8696 19.2542 13.6296L20.5228 14.8983C19.3168 18.4456 15.958 20.9999 12 20.9999C7.02944 20.9999 3 16.9705 3 11.9999Z" fill="#4B5EFC"/>
+                </g>
+                </svg>
+                </div>    
+            </button> </div>
+        <div class="calculatorOutPut">
+            <div class="calculatorHistory">0</div>
+            <div class="calculatorFinishProcess">0</div>
+        </div>
+        <div class="calculatorBtnGrid">
+
+            <div data-value="clear" class="calculatorBtns btnfunction">C</div>
+            <div data-value="value" class="calculatorBtns btnfunction">+/-</div>
+            <div data-value="percent" class="calculatorBtns btnfunction">%</div>
+            <div data-value="divide" class="calculatorBtns  BtnOp">/</div>
+            <div data-value="7" class="calculatorBtns btnNum">7</div>
+            <div data-value="8" class="calculatorBtns btnNum">8</div>
+            <div data-value="9" class="calculatorBtns btnNum">9</div>
+            <div data-value="multiply" class="calculatorBtns  BtnOp">x</div>
+            <div data-value="4" class="calculatorBtns btnNum">4</div>
+            <div data-value="5" class="calculatorBtns btnNum">5</div>
+            <div data-value="6" class="calculatorBtns btnNum">6</div>
+            <div data-value="subtract" class="calculatorBtns  BtnOp">-</div>
+            <div data-value="1" class="calculatorBtns btnNum">1</div>
+            <div data-value="2" class="calculatorBtns btnNum">2</div>
+            <div data-value="3" class="calculatorBtns btnNum">3</div>
+            <div data-value="sum" class="calculatorBtns  BtnOp">+</div>
+            <div data-value="." class="calculatorBtns btnNum">.</div>
+            <div data-value="0" class="calculatorBtns btnNum">0</div>
+            <div data-value="backspace" class="calculatorBtns btnNum">&lArr;</div>
+            <div data-value="equal" class="calculatorBtns  BtnOp">=</div>
+
+
+
+        </div>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>

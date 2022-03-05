@@ -1,0 +1,176 @@
+:root{
+    --darkThemeBG: #17171C;
+    --darkThemeBtnF: #4E505F;
+    --BtnOp:#4B5EFC;
+    --darkThemeBtnN:#2E2F38;
+
+    --lightThemeBG: #F2F3F4;
+    --lightThemeBtnF: #D2D3DA;
+    --BtnOp:#4B5EFC;
+    --lightThemeBtnNumber:#FFFFFF;
+}
+
+*{
+    margin:  0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+
+
+.main{
+    padding: 5% 25%;
+    background-color:var(--lightThemeBG);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.darkThemeMain{
+    background-color: var(--darkThemeBG);
+}
+
+.calculatorBtns{
+border-radius: 24px;
+font-family: Work Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 40px;
+padding:16px 10px;
+}
+
+.btnfunction{
+    background-color: var(--lightThemeBtnF);
+}
+
+.darkThemeBtnFunctions{
+    background-color: var(--darkThemeBtnF);
+    color: white;
+    
+}
+
+.BtnOp{
+    background-color: var(--BtnOp);
+    color: white;
+}
+
+.btnNum{
+    background-color: var(--lightThemeBtnNumber);
+    color: black;
+}
+
+.darkThemeBtnNumber{
+    background-color: var(--darkThemeBtnN);
+    color: white;
+}
+
+.calculatorOutPut{
+    display: flex;
+    flex-direction: column;
+    
+    align-content: flex-end;
+    width: 100%;
+}
+
+.calculatorFinishProcess{
+    font-family: Work Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 96px;
+line-height: 96px;
+text-align: right;
+height: 100px;
+color: black;
+}
+
+.calculatorFinishProcessDark{
+    color: white;
+}
+
+
+.calculatorHistory{
+font-family: Work Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 40px;
+line-height: 47px;
+text-align: right;
+color: black;
+}
+.calculatorHistoryDark{
+    color: white;
+}
+
+.calculatorBtnGrid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 72px 72px 72px 72px 72px;
+    gap: 16px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.themeswitch{
+    background: white;
+    width: 72px;
+    height: 32px;
+    border-radius: 24px;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.themeswitchDark{
+    background-color: #2E2F38;
+}
+
+.circle{
+    border-radius: 50%;
+    background-color: #D2D3DA;
+    width: 24px;
+    height: 24px;
+    position: relative;
+    left: 24px;
+    animation: myAnimationLight 1s ease 0s 1 normal forwards;
+}
+
+.circleDark{
+    animation: myAnimationDark 1s ease 0s 1 normal forwards;
+}
+
+@keyframes myAnimationLight {
+    0% {
+      opacity: 0;
+      transform: translateX(-48px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes myAnimationDark {
+    0% {
+      opacity: 0;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(-48px);
+    }
+  }
