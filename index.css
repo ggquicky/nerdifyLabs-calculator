@@ -189,3 +189,17 @@ color: black;
     }
       
   }
+
+  @media screen and (min-width:425px) and (max-width:1024px) {
+    .main{
+        padding: 5% 16px;
+    }
+    .calculatorFinishProcess{
+    
+    font-size: 56px;
+    line-height: 56px;
+    
+    
+    }
+      
+  }
