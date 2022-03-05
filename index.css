@@ -174,3 +174,18 @@ color: black;
       transform: translateX(-48px);
     }
   }
+
+
+  @media screen and (max-width:425px) {
+    .main{
+        padding: 5% 16px;
+    }
+    .calculatorFinishProcess{
+    
+    font-size: 56px;
+    line-height: 56px;
+    
+    
+    }
+      
+  }
