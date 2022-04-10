@@ -213,9 +213,7 @@ color: black;
     
     }
 
-    .calculatorBtnGrid{
-        grid-template-columns: 80px 80px 80px 80px;
-    }
+   
 
     .calculatorBtns{
         
@@ -225,9 +223,10 @@ color: black;
         } 
       
   }
+
   @media screen and (min-width:767px) and (max-width:1023px) {
     .main{
-        padding: 5% 20%px;
+        padding: 5% 20%;
     }
     .calculatorFinishProcess{
     
@@ -236,7 +235,5 @@ color: black;
     
     
     }
-    .calculatorBtnGrid{
-        grid-template-columns: 80px 80px 80px 80px;
-    }  
+ 
   }
